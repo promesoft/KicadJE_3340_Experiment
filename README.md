@@ -49,4 +49,5 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 
 https://electricdruid.net/cem3340-vco-voltage-controlled-oscillator-designs/
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+available under - https://creativecommons.org/licenses/by-nc-sa/4.0/
