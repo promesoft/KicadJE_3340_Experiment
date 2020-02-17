@@ -3,7 +3,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date "2019-03-19"
 Rev "Rev A"
@@ -1235,4 +1235,109 @@ Text GLabel 5425 2700 0    50   Input ~ 0
 CVIn1
 Wire Wire Line
 	5425 2700 6250 2700
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:POT RV?
+U 1 1 5E635430
+P 5000 4875
+AR Path="/5D99B7BA/5E635430" Ref="RV?"  Part="1" 
+AR Path="/5F18E4B5/5E635430" Ref="RV?"  Part="1" 
+AR Path="/5E62ACA1/5E635430" Ref="RV?"  Part="1" 
+F 0 "RV?" V 5000 4900 50  0000 C CNN
+F 1 "1M Release" V 4794 4875 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:Potentiometer_China_RK09_Single_Vertical_AJ" H 5000 4875 50  0001 C CNN
+F 3 "" H 5000 4875 50  0001 C CNN
+	1    5000 4875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 4875 5200 4875
+Wire Wire Line
+	4800 4725 4800 4875
+Wire Wire Line
+	4800 4875 4850 4875
+$Comp
+L Device:R R?
+U 1 1 5E635439
+P 4800 4575
+AR Path="/5D99B81E/5E635439" Ref="R?"  Part="1" 
+AR Path="/5D99B7BA/5E635439" Ref="R?"  Part="1" 
+AR Path="/5F18E4B5/5E635439" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/5E635439" Ref="R?"  Part="1" 
+F 0 "R?" V 4800 4625 50  0000 C CNN
+F 1 "0R" V 4700 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4730 4575 50  0001 C CNN
+F 3 "~" H 4800 4575 50  0001 C CNN
+	1    4800 4575
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E63543F
+P 5200 4575
+AR Path="/5D99B81E/5E63543F" Ref="R?"  Part="1" 
+AR Path="/5D99B7BA/5E63543F" Ref="R?"  Part="1" 
+AR Path="/5F18E4B5/5E63543F" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/5E63543F" Ref="R?"  Part="1" 
+F 0 "R?" V 5200 4625 50  0000 C CNN
+F 1 "Open / 300K if lin pot" V 5075 4275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5130 4575 50  0001 C CNN
+F 3 "~" H 5200 4575 50  0001 C CNN
+	1    5200 4575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 4725 5200 4875
+Wire Wire Line
+	5200 4425 5200 4375
+Wire Wire Line
+	5200 4375 5000 4375
+Wire Wire Line
+	4800 4375 4800 4425
+Wire Wire Line
+	5000 4725 5000 4375
+Connection ~ 5000 4375
+Wire Wire Line
+	5000 4375 4800 4375
+Connection ~ 4800 4875
+Wire Wire Line
+	4575 4875 4800 4875
+$Comp
+L Device:R R?
+U 1 1 5E63544E
+P 5425 4875
+AR Path="/5E63544E" Ref="R?"  Part="1" 
+AR Path="/5CD3F059/5E63544E" Ref="R?"  Part="1" 
+AR Path="/5CEBAECA/5E63544E" Ref="R?"  Part="1" 
+AR Path="/5DD87D87/5DDB8911/5E63544E" Ref="R?"  Part="1" 
+AR Path="/5DD87D87/5E63544E" Ref="R?"  Part="1" 
+AR Path="/5F18E4B5/5E63544E" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/5E63544E" Ref="R?"  Part="1" 
+F 0 "R?" V 5425 4825 50  0000 C CNN
+F 1 "100R" V 5309 4875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5355 4875 50  0001 C CNN
+F 3 "~" H 5425 4875 50  0001 C CNN
+	1    5425 4875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5275 4875 5200 4875
+Connection ~ 5200 4875
+$Comp
+L Device:D D?
+U 1 1 5E635456
+P 4425 4875
+AR Path="/5E635456" Ref="D?"  Part="1" 
+AR Path="/5D60ED9A/5E635456" Ref="D?"  Part="1" 
+AR Path="/5CD6EBF4/5E635456" Ref="D?"  Part="1" 
+AR Path="/5CE53731/5E635456" Ref="D?"  Part="1" 
+AR Path="/5DD87D87/5E635456" Ref="D?"  Part="1" 
+AR Path="/5F18E4B5/5E635456" Ref="D?"  Part="1" 
+AR Path="/5E62ACA1/5E635456" Ref="D?"  Part="1" 
+F 0 "D?" V 4379 4954 50  0000 L CNN
+F 1 "1N4148" V 4425 4500 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4425 4875 50  0001 C CNN
+F 3 "~" H 4425 4875 50  0001 C CNN
+	1    4425 4875
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
