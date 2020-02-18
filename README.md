@@ -43,7 +43,8 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 # Pictures
 
 # Schematic
-## AS3340 
+## AS3340 Data Sheet
+![](DatasheetCEM3340VCO.gif)
 
 # Inspiration
 http://www.alfarzpp.lv/eng/sc/AS3340.pdf
