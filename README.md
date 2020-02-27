@@ -1,4 +1,4 @@
-# 3340Experiment
+# AS3340/CEM3340 Experiment
 AS3340 Experiments
 
 # Vital Components
