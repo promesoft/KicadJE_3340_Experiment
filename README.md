@@ -63,6 +63,9 @@ http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 CC BY-NC-SA 4.0
 ![](DatasheetCEM3340VCO.gif)
 
+## CEM3340 Prophet 5 - Via Electric Druid
+CC BY-NC-SA 4.0
+![](Prophet5Rev3CEM3340VCO.gif)
 https://electricdruid.net/cem3340-vco-voltage-controlled-oscillator-designs/
 
 available under - https://creativecommons.org/licenses/by-nc-sa/4.0/
