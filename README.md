@@ -11,10 +11,10 @@ Move from breadboard to stripboard as breadboard is not stable in any way.
 
 * 820R -> 680R (-12v)
 * 470R -> 680R (CV in)
-* 24k -> 20k (tracking serial res)
-* 1k8 -> 2k (
+* 24k -> 20k (Rz tracking serial res)
+* 1k8 -> 2k (Scale)
 * 1M5 -> 1M (+12v pull up FM in)
-
+* 5k6 -> 4k7 (scale adj RT)
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
