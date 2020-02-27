@@ -13,7 +13,7 @@ Move from breadboard to stripboard as breadboard is not stable in any way.
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | AS 3340 datasheet as sch done - next: clone of Prophet 8 |
-| create material  | pcb |   |
+| | pcb |   |
 | | gerber |  |
 | production  |   |  |
 |  | produced |  |
