@@ -9,9 +9,10 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 # Status - startup
 Move from breadboard to stripboard as breadboard is not stable in any way.
 
-470R -> 680R
-24k -> 20k
-1k8 -> 2k
+820R -> 680R (-12v)
+470R -> 680R (CV in)
+24k -> 20k (tracking serial res)
+1k8 -> 2k (
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
