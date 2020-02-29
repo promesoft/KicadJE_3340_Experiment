@@ -57,7 +57,7 @@ Quick mods to get started
 
 # Inspiration
 ## AS3340 Data Sheet
-![](AS3340 Diagram.png)
+![](AS3340%20Diagram.png)
 
 http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 
