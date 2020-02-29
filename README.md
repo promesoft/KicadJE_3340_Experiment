@@ -68,4 +68,10 @@ CC BY-NC-SA 4.0
 ![](Prophet5Rev3CEM3340VCO.gif)
 https://electricdruid.net/cem3340-vco-voltage-controlled-oscillator-designs/
 
+## CEM3340 Prophet T8 - Via Electric Druid
+CC BY-NC-SA 4.0
+
+![](ProphetT8CEM3340VCO.gif)
+https://electricdruid.net/cem3340-vco-voltage-controlled-oscillator-designs/
+
 available under - https://creativecommons.org/licenses/by-nc-sa/4.0/
