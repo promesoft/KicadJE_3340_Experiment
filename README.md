@@ -56,6 +56,7 @@ Protection of the chip is also needed.
 ### 3340
 
 # Pictures
+![](2020 02 AS3340 stripboard.JPG)
 
 # Schematic
 ## AS3340 Data Sheet
