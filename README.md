@@ -57,6 +57,8 @@ Quick mods to get started
 
 # Inspiration
 ## AS3340 Data Sheet
+![](AS3340 Diagram.png)
+
 http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 
 ## CEM3340 Data Sheet - Via Electric Druid
