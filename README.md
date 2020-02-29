@@ -16,6 +16,11 @@ Quick mods to get started
 * 1k8 -> 2k (Scale)
 * 1M5 -> 1M (+12v pull up FM in)
 * 5k6 -> 4k7 (scale adj RT)
+
+Works ok for feature validation - but sync and PWM adjustment circuits should be included - as well as level adjustment.
+Protection of the chip is also needed.
+20K pot not needed.
+
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
