@@ -2293,6 +2293,7 @@ U 1 1 5F66CD2B
 P 10300 3750
 AR Path="/5E4B0DD9/5F66CD2B" Ref="U?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD2B" Ref="U?"  Part="1" 
+AR Path="/5F49A670/5F66CD2B" Ref="U?"  Part="1" 
 F 0 "U?" H 10300 4631 50  0000 C CNN
 F 1 "AS3340" H 10300 4540 50  0000 C CNN
 F 2 "" H 10800 3450 50  0001 C CNN
@@ -2336,6 +2337,7 @@ U 1 1 5F66CD3F
 P 9225 4350
 AR Path="/5E4B0DD9/5F66CD3F" Ref="C?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD3F" Ref="C?"  Part="1" 
+AR Path="/5F49A670/5F66CD3F" Ref="C?"  Part="1" 
 F 0 "C?" H 9200 4450 50  0000 L CNN
 F 1 "1n poly" H 9125 4200 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 9263 4200 50  0001 C CNN
@@ -2361,6 +2363,7 @@ AR Path="/5C8C5FC0/5F66CD4A" Ref="R?"  Part="1"
 AR Path="/5CAAE8D3/5F66CD4A" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CD4A" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD4A" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F66CD4A" Ref="R?"  Part="1" 
 F 0 "R?" V 9550 4450 50  0000 C CNN
 F 1 "1k82" V 9675 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9605 4450 50  0001 C CNN
@@ -2392,6 +2395,7 @@ AR Path="/5C8C5FC0/5F66CD58" Ref="#PWR?"  Part="1"
 AR Path="/5CAAE8D3/5F66CD58" Ref="#PWR?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CD58" Ref="#PWR?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD58" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F66CD58" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 9425 4400 50  0001 C CNN
 F 1 "GND" H 9430 4477 50  0000 C CNN
 F 2 "" H 9425 4650 50  0001 C CNN
@@ -2417,6 +2421,7 @@ AR Path="/5C8C5FC0/5F66CD63" Ref="R?"  Part="1"
 AR Path="/5CAAE8D3/5F66CD63" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CD63" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD63" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F66CD63" Ref="R?"  Part="1" 
 F 0 "R?" V 9375 3400 50  0000 C CNN
 F 1 "6k04" V 9425 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9355 3250 50  0001 C CNN
@@ -2433,6 +2438,7 @@ AR Path="/5C8C5FC0/5F66CD69" Ref="R?"  Part="1"
 AR Path="/5CAAE8D3/5F66CD69" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CD69" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD69" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F66CD69" Ref="R?"  Part="1" 
 F 0 "R?" V 9325 3275 50  0000 C CNN
 F 1 "26k7" V 9425 3150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9355 3150 50  0001 C CNN
@@ -2446,6 +2452,7 @@ U 1 1 5F66CD6F
 P 9025 3150
 AR Path="/5E4B0DD9/5F66CD6F" Ref="RV?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD6F" Ref="RV?"  Part="1" 
+AR Path="/5F49A670/5F66CD6F" Ref="RV?"  Part="1" 
 F 0 "RV?" V 9150 3050 50  0000 C CNN
 F 1 "5k" V 9025 3175 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 9025 3150 50  0001 C CNN
@@ -2477,6 +2484,7 @@ AR Path="/5C8C5FC0/5F66CD7D" Ref="#PWR?"  Part="1"
 AR Path="/5CAAE8D3/5F66CD7D" Ref="#PWR?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CD7D" Ref="#PWR?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD7D" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F66CD7D" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10400 4350 50  0001 C CNN
 F 1 "GND" H 10405 4427 50  0000 C CNN
 F 2 "" H 10400 4600 50  0001 C CNN
@@ -2509,6 +2517,7 @@ AR Path="/5C8C5FC0/5F66CD91" Ref="R?"  Part="1"
 AR Path="/5CAAE8D3/5F66CD91" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CD91" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD91" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F66CD91" Ref="R?"  Part="1" 
 F 0 "R?" V 9375 3500 50  0000 C CNN
 F 1 "1M2" V 9425 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9355 3350 50  0001 C CNN
@@ -2523,6 +2532,8 @@ $Comp
 L power:-5V #PWR?
 U 1 1 5F66CD99
 P 8675 3150
+AR Path="/5E62ACA1/5F66CD99" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F66CD99" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 8675 3250 50  0001 C CNN
 F 1 "-5V" H 8690 3323 50  0000 C CNN
 F 2 "" H 8675 3150 50  0001 C CNN
@@ -2536,6 +2547,7 @@ U 1 1 5F66CD9F
 P 9125 3375
 AR Path="/5E4B0DD9/5F66CD9F" Ref="#PWR?"  Part="1" 
 AR Path="/5E62ACA1/5F66CD9F" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F66CD9F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 9125 3225 50  0001 C CNN
 F 1 "-12VA" H 9140 3548 50  0000 C CNN
 F 2 "" H 9125 3375 50  0001 C CNN
@@ -2561,6 +2573,7 @@ AR Path="/5CE53731/5F66CDA9" Ref="C?"  Part="1"
 AR Path="/5DD87D87/5F66CDA9" Ref="C?"  Part="1" 
 AR Path="/5F18E4B5/5F66CDA9" Ref="C?"  Part="1" 
 AR Path="/5E62ACA1/5F66CDA9" Ref="C?"  Part="1" 
+AR Path="/5F49A670/5F66CDA9" Ref="C?"  Part="1" 
 F 0 "C?" H 8925 4450 50  0000 L CNN
 F 1 "100n" H 8850 4275 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8988 4200 50  0001 C CNN
@@ -2585,6 +2598,8 @@ $Comp
 L power:-5V #PWR?
 U 1 1 5F66CDB6
 P 10300 4625
+AR Path="/5E62ACA1/5F66CDB6" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F66CDB6" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 10300 4725 50  0001 C CNN
 F 1 "-5V" H 10315 4798 50  0000 C CNN
 F 2 "" H 10300 4625 50  0001 C CNN
@@ -2596,6 +2611,8 @@ $Comp
 L Transistor_BJT:MMBT3906 Q?
 U 1 1 5F66CDBC
 P 8550 3950
+AR Path="/5E62ACA1/5F66CDBC" Ref="Q?"  Part="1" 
+AR Path="/5F49A670/5F66CDBC" Ref="Q?"  Part="1" 
 F 0 "Q?" H 8741 3904 50  0000 L CNN
 F 1 "MMBT3906" H 8741 3995 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 3875 50  0001 L CIN
@@ -2611,6 +2628,7 @@ U 1 1 5F66CDC3
 P 7600 4100
 AR Path="/5E4B0DD9/5F66CDC3" Ref="C?"  Part="1" 
 AR Path="/5E62ACA1/5F66CDC3" Ref="C?"  Part="1" 
+AR Path="/5F49A670/5F66CDC3" Ref="C?"  Part="1" 
 F 0 "C?" V 7550 4150 50  0000 L CNN
 F 1 "220p" V 7650 4150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7638 3950 50  0001 C CNN
@@ -2627,6 +2645,7 @@ AR Path="/5C8C5FC0/5F66CDC9" Ref="R?"  Part="1"
 AR Path="/5CAAE8D3/5F66CDC9" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CDC9" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/5F66CDC9" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F66CDC9" Ref="R?"  Part="1" 
 F 0 "R?" V 7900 4025 50  0000 C CNN
 F 1 "47k" V 8000 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7930 4100 50  0001 C CNN
@@ -2647,6 +2666,7 @@ AR Path="/5C8C5FC0/5F66CDD1" Ref="R?"  Part="1"
 AR Path="/5CAAE8D3/5F66CDD1" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/5F66CDD1" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/5F66CDD1" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F66CDD1" Ref="R?"  Part="1" 
 F 0 "R?" V 8125 3725 50  0000 C CNN
 F 1 "47k" V 8225 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8155 3800 50  0001 C CNN
@@ -2663,6 +2683,8 @@ $Comp
 L Envelope-cache-2018-08-04-13-00-04:+5V #PWR?
 U 1 1 5F66CDDA
 P 7975 3400
+AR Path="/5E62ACA1/5F66CDDA" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F66CDDA" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 7975 3250 50  0001 C CNN
 F 1 "+5V" H 7990 3573 50  0000 C CNN
 F 2 "" H 7975 3400 50  0001 C CNN
@@ -2686,6 +2708,7 @@ AR Path="/5CE53731/5F66CDE3" Ref="C?"  Part="1"
 AR Path="/5DD87D87/5F66CDE3" Ref="C?"  Part="1" 
 AR Path="/5F18E4B5/5F66CDE3" Ref="C?"  Part="1" 
 AR Path="/5E62ACA1/5F66CDE3" Ref="C?"  Part="1" 
+AR Path="/5F49A670/5F66CDE3" Ref="C?"  Part="1" 
 F 0 "C?" H 8650 4450 50  0000 L CNN
 F 1 "100n" H 8550 4275 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8688 4200 50  0001 C CNN
@@ -2706,6 +2729,8 @@ $Comp
 L Device:D D?
 U 1 1 5F66CDEE
 P 8425 4175
+AR Path="/5E62ACA1/5F66CDEE" Ref="D?"  Part="1" 
+AR Path="/5F49A670/5F66CDEE" Ref="D?"  Part="1" 
 F 0 "D?" H 8325 4250 50  0000 C CNN
 F 1 "Germanium" H 8325 4100 50  0000 C CNN
 F 2 "" H 8425 4175 50  0001 C CNN
@@ -2727,6 +2752,8 @@ $Comp
 L Jumper:Jumper_3_Bridged12 JP?
 U 1 1 5F66CDFA
 P 8225 3450
+AR Path="/5E62ACA1/5F66CDFA" Ref="JP?"  Part="1" 
+AR Path="/5F49A670/5F66CDFA" Ref="JP?"  Part="1" 
 F 0 "JP?" H 8225 3654 50  0000 C CNN
 F 1 "Jumper_3_Bridged12" H 8225 3563 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels" H 8225 3450 50  0001 C CNN
@@ -2758,4 +2785,148 @@ F 3 "" H 10300 2975 50  0001 C CNN
 	1    10300 2975
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5F6B865F
+P 1700 5675
+AR Path="/5F6B865F" Ref="SW?"  Part="1" 
+AR Path="/5C8C5FC0/5F6B865F" Ref="SW?"  Part="1" 
+AR Path="/5CAAE8D3/5F6B865F" Ref="SW?"  Part="1" 
+AR Path="/5E4B0DD9/5F6B865F" Ref="SW?"  Part="1" 
+AR Path="/5E62ACA1/5F6B865F" Ref="SW?"  Part="1" 
+AR Path="/5F49A670/5F6B865F" Ref="SW?"  Part="1" 
+F 0 "SW?" H 2100 5700 50  0000 C CNN
+F 1 "Octave (3 state)" H 1750 5475 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:SP1MS1" H 1700 5675 50  0001 C CNN
+F 3 "~" H 1700 5675 50  0001 C CNN
+	1    1700 5675
+	-1   0    0    1   
+$EndComp
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:+5V #PWR?
+U 1 1 5F6F74CC
+P 1500 5300
+AR Path="/5E62ACA1/5F6F74CC" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F6F74CC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 5150 50  0001 C CNN
+F 1 "+5V" H 1515 5473 50  0000 C CNN
+F 2 "" H 1500 5300 50  0001 C CNN
+F 3 "" H 1500 5300 50  0001 C CNN
+	1    1500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F6F7A40
+P 2025 5500
+AR Path="/5F6F7A40" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5F6F7A40" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5F6F7A40" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/5F6F7A40" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/5F6F7A40" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F6F7A40" Ref="R?"  Part="1" 
+F 0 "R?" V 1950 5425 50  0000 C CNN
+F 1 "82k" V 2025 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1955 5500 50  0001 C CNN
+F 3 "~" H 2025 5500 50  0001 C CNN
+	1    2025 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F6F8705
+P 2025 5850
+AR Path="/5F6F8705" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5F6F8705" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5F6F8705" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/5F6F8705" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/5F6F8705" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F6F8705" Ref="R?"  Part="1" 
+F 0 "R?" V 1950 5775 50  0000 C CNN
+F 1 "20k" V 2025 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1955 5850 50  0001 C CNN
+F 3 "~" H 2025 5850 50  0001 C CNN
+	1    2025 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 5F6F8CBF
+P 1500 6050
+AR Path="/5F6F8CBF" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/5F6F8CBF" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/5F6F8CBF" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/5F6F8CBF" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5F6F8CBF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1500 5800 50  0001 C CNN
+F 1 "GND" H 1505 5877 50  0000 C CNN
+F 2 "" H 1500 6050 50  0001 C CNN
+F 3 "" H 1500 6050 50  0001 C CNN
+	1    1500 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 5350 2025 5325
+Wire Wire Line
+	2025 5325 1500 5325
+Wire Wire Line
+	1500 5325 1500 5300
+Wire Wire Line
+	1500 6050 1500 6025
+Wire Wire Line
+	1500 6025 1625 6025
+Wire Wire Line
+	2025 6025 2025 6000
+Wire Wire Line
+	2025 5700 2025 5675
+Wire Wire Line
+	1900 5675 2025 5675
+Connection ~ 2025 5675
+Wire Wire Line
+	2025 5675 2025 5650
+$Comp
+L Device:R R?
+U 1 1 5F753A2A
+P 1250 5475
+AR Path="/5F753A2A" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5F753A2A" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5F753A2A" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/5F753A2A" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/5F753A2A" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F753A2A" Ref="R?"  Part="1" 
+F 0 "R?" V 1175 5400 50  0000 C CNN
+F 1 "47k" V 1250 5475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 5475 50  0001 C CNN
+F 3 "~" H 1250 5475 50  0001 C CNN
+	1    1250 5475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 5325 1500 5325
+Connection ~ 1500 5325
+Wire Wire Line
+	1250 5625 1500 5625
+Wire Wire Line
+	1500 5625 1500 5575
+Wire Wire Line
+	1500 5775 1500 6025
+Connection ~ 1500 6025
+$Comp
+L Device:R R?
+U 1 1 5F79A77D
+P 1775 6025
+AR Path="/5F79A77D" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5F79A77D" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5F79A77D" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/5F79A77D" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F79A77D" Ref="R?"  Part="1" 
+F 0 "R?" V 1650 6025 50  0000 C CNN
+F 1 "470R" V 1775 6025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1705 6025 50  0001 C CNN
+F 3 "~" H 1775 6025 50  0001 C CNN
+	1    1775 6025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1925 6025 2025 6025
 $EndSCHEMATC
