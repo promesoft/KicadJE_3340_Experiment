@@ -6,7 +6,7 @@ Based on http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 
 Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as3340-vco.html
 
-# Status - startup
+# Status - startup with Datasheet circuit
 Move from breadboard to stripboard as breadboard is not stable in any way.
 
 Quick mods to get started
