@@ -3873,4 +3873,44 @@ Wire Wire Line
 	3375 1225 3375 900 
 Wire Wire Line
 	3375 900  3200 900 
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR?
+U 1 1 615A670C
+P 7525 4425
+AR Path="/615A670C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8C5FC0/615A670C" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/615A670C" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/615A670C" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/615A670C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7525 4175 50  0001 C CNN
+F 1 "GND" H 7530 4252 50  0000 C CNN
+F 2 "" H 7525 4425 50  0001 C CNN
+F 3 "" H 7525 4425 50  0001 C CNN
+	1    7525 4425
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_SwitchT J?
+U 1 1 615A6716
+P 7875 4325
+AR Path="/615A6716" Ref="J?"  Part="1" 
+AR Path="/5C8C5FC0/615A6716" Ref="J?"  Part="1" 
+AR Path="/5CAAE8D3/615A6716" Ref="J?"  Part="1" 
+AR Path="/5E4B0DD9/615A6716" Ref="J?"  Part="1" 
+AR Path="/5F49A670/615A6716" Ref="J?"  Part="1" 
+F 0 "J?" H 7500 4500 50  0000 C CNN
+F 1 "PWM_In5" H 7600 4400 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:PJ301SM" H 7875 4325 50  0001 C CNN
+F 3 "~" H 7875 4325 50  0001 C CNN
+	1    7875 4325
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7675 4325 7425 4325
+Wire Wire Line
+	7525 4225 7525 4425
+Wire Wire Line
+	7675 4225 7525 4225
+Text GLabel 7425 4325 0    47   Input ~ 0
+3Sine
 $EndSCHEMATC
