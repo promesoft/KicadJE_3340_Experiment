@@ -99,7 +99,7 @@ Wire Wire Line
 Connection ~ 1350 1225
 Wire Wire Line
 	1350 1225 1350 1025
-Text GLabel 2425 1125 2    50   Input ~ 0
+Text GLabel 3750 1225 2    50   Input ~ 0
 3CVIn1
 Wire Wire Line
 	1850 725  1750 725 
@@ -856,8 +856,6 @@ F 3 "" H 2325 825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2325 1125
-Wire Wire Line
-	2325 1125 2425 1125
 Wire Wire Line
 	2125 1125 2325 1125
 Wire Wire Line
@@ -2558,18 +2556,18 @@ Wire Wire Line
 	1375 7125 1475 7125
 $Comp
 L Amplifier_Operational:TL072 U?
-U 1 1 5F7CE424
+U 2 1 5F7CE424
 P 2575 4525
 AR Path="/5D99B81E/5F7CE424" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/5F7CE424" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/5F7CE424" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/5F7CE424" Ref="U?"  Part="1" 
-AR Path="/5F49A670/5F7CE424" Ref="U?"  Part="1" 
+AR Path="/5F49A670/5F7CE424" Ref="U?"  Part="2" 
 F 0 "U?" H 2600 4500 50  0000 C CNN
 F 1 "TL072" H 2550 4575 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2575 4525 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2575 4525 50  0001 C CNN
-	1    2575 4525
+	2    2575 4525
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -2768,18 +2766,18 @@ Wire Wire Line
 	3250 5325 3350 5325
 $Comp
 L Amplifier_Operational:TL072 U?
-U 1 1 5FE7E2ED
+U 2 1 5FE7E2ED
 P 2575 6025
 AR Path="/5D99B81E/5FE7E2ED" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/5FE7E2ED" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/5FE7E2ED" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/5FE7E2ED" Ref="U?"  Part="1" 
-AR Path="/5F49A670/5FE7E2ED" Ref="U?"  Part="1" 
+AR Path="/5F49A670/5FE7E2ED" Ref="U?"  Part="2" 
 F 0 "U?" H 2550 5975 50  0000 C CNN
 F 1 "TL072" H 2525 6050 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 2575 6025 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2575 6025 50  0001 C CNN
-	1    2575 6025
+	2    2575 6025
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -3074,18 +3072,18 @@ Wire Wire Line
 	8550 2000 8525 2000
 $Comp
 L Amplifier_Operational:TL072 U?
-U 1 1 6058F368
+U 2 1 6058F368
 P 9625 2100
 AR Path="/5D99B81E/6058F368" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/6058F368" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/6058F368" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/6058F368" Ref="U?"  Part="1" 
-AR Path="/5F49A670/6058F368" Ref="U?"  Part="1" 
+AR Path="/5F49A670/6058F368" Ref="U?"  Part="2" 
 F 0 "U?" H 9575 2100 50  0000 C CNN
 F 1 "TL072" H 9725 1950 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 9625 2100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9625 2100 50  0001 C CNN
-	1    9625 2100
+	2    9625 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3350,18 +3348,18 @@ Wire Wire Line
 	5925 3400 5925 3475
 $Comp
 L Amplifier_Operational:TL072 U?
-U 1 1 6091B290
+U 2 1 6091B290
 P 7200 3525
 AR Path="/5D99B81E/6091B290" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/6091B290" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/6091B290" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/6091B290" Ref="U?"  Part="1" 
-AR Path="/5F49A670/6091B290" Ref="U?"  Part="1" 
+AR Path="/5F49A670/6091B290" Ref="U?"  Part="2" 
 F 0 "U?" H 7075 3475 50  0000 C CNN
 F 1 "TL072" H 7125 3550 50  0000 C CNN
 F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 7200 3525 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7200 3525 50  0001 C CNN
-	1    7200 3525
+	2    7200 3525
 	1    0    0    1   
 $EndComp
 $Comp
@@ -3523,7 +3521,7 @@ AR Path="/5E4B0DD9/60B03485" Ref="R?"  Part="1"
 AR Path="/5E62ACA1/60B03485" Ref="R?"  Part="1" 
 AR Path="/5F49A670/60B03485" Ref="R?"  Part="1" 
 F 0 "R?" V 6075 3925 50  0000 C CNN
-F 1 "47k" V 6150 3975 50  0000 C CNN
+F 1 "390R" V 6150 3975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 3975 50  0001 C CNN
 F 3 "~" H 6150 3975 50  0001 C CNN
 	1    6150 3975
@@ -3799,4 +3797,80 @@ Text Notes 1900 6625 0    50   ~ 0
 Freq Manual Adjust
 Text Notes 1325 6625 0    50   ~ 0
 Octave Adjust
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 614891B3
+P 3050 1225
+AR Path="/5D99B81E/614891B3" Ref="U?"  Part="3" 
+AR Path="/5D99B7BA/614891B3" Ref="U?"  Part="1" 
+AR Path="/5F18E4B5/614891B3" Ref="U?"  Part="2" 
+AR Path="/5E62ACA1/614891B3" Ref="U?"  Part="1" 
+AR Path="/5F49A670/614891B3" Ref="U?"  Part="1" 
+F 0 "U?" H 2950 1250 50  0000 C CNN
+F 1 "TL072" H 2975 1175 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 3050 1225 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3050 1225 50  0001 C CNN
+	1    3050 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1325 2725 1325
+Wire Wire Line
+	2725 1325 2725 1475
+Wire Wire Line
+	2725 1475 3375 1475
+Wire Wire Line
+	3375 1475 3375 1225
+Wire Wire Line
+	3375 1225 3350 1225
+$Comp
+L Device:R R?
+U 1 1 614891BF
+P 3525 1225
+AR Path="/614891BF" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/614891BF" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/614891BF" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/614891BF" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/614891BF" Ref="R?"  Part="1" 
+AR Path="/5F49A670/614891BF" Ref="R?"  Part="1" 
+F 0 "R?" V 3425 1150 50  0000 C CNN
+F 1 "1k" V 3525 1225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3455 1225 50  0001 C CNN
+F 3 "~" H 3525 1225 50  0001 C CNN
+	1    3525 1225
+	0    1    1    0   
+$EndComp
+Connection ~ 3375 1225
+Wire Wire Line
+	2325 1125 2725 1125
+Wire Wire Line
+	3750 1225 3675 1225
+$Comp
+L Device:R R?
+U 1 1 61551447
+P 3050 900
+AR Path="/61551447" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/61551447" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/61551447" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/61551447" Ref="R?"  Part="1" 
+AR Path="/5E62ACA1/61551447" Ref="R?"  Part="1" 
+AR Path="/5F49A670/61551447" Ref="R?"  Part="1" 
+F 0 "R?" V 2950 825 50  0000 C CNN
+F 1 "OPEN" V 3050 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2980 900 50  0001 C CNN
+F 3 "~" H 3050 900 50  0001 C CNN
+	1    3050 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2725 1125 2725 900 
+Wire Wire Line
+	2725 900  2900 900 
+Connection ~ 2725 1125
+Wire Wire Line
+	2725 1125 2750 1125
+Wire Wire Line
+	3375 1225 3375 900 
+Wire Wire Line
+	3375 900  3200 900 
 $EndSCHEMATC
