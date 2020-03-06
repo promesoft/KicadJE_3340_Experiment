@@ -60,7 +60,7 @@ Protection of the chip is also needed.
 
 # Schematic
 ## AS3340 Data Sheet
-
+![](AS3340%20JE%20Diagram%203RevA.png)
 # Inspiration
 ## AS3340 Data Sheet
 ![](AS3340%20Diagram.png)
