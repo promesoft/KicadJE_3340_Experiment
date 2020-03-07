@@ -98,7 +98,7 @@ Wire Wire Line
 Connection ~ 1350 1225
 Wire Wire Line
 	1350 1225 1350 1025
-Text GLabel 2400 1125 2    50   Input ~ 0
+Text GLabel 2800 1125 2    50   Input ~ 0
 3CVIn1
 Wire Wire Line
 	1850 725  1750 725 
@@ -4053,4 +4053,33 @@ Wire Wire Line
 Connection ~ 6750 5275
 Wire Wire Line
 	6750 5275 6875 5275
+$Comp
+L Device:R R164
+U 1 1 5EE442D5
+P 2550 1125
+AR Path="/5EE442D5" Ref="R164"  Part="1" 
+AR Path="/5C8C5FC0/5EE442D5" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5EE442D5" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/5EE442D5" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5EE442D5" Ref="R?"  Part="1" 
+F 0 "R164" V 2475 1125 50  0000 C CNN
+F 1 "1k" V 2550 1125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 1125 50  0001 C CNN
+F 3 "~" H 2550 1125 50  0001 C CNN
+	1    2550 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 1125 2800 1125
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EE75A89
+P 10725 3500
+F 0 "TP?" H 10783 3618 50  0000 L CNN
+F 1 "TestPoint" H 10783 3527 50  0000 L CNN
+F 2 "" H 10925 3500 50  0001 C CNN
+F 3 "~" H 10925 3500 50  0001 C CNN
+	1    10725 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
