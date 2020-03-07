@@ -1554,7 +1554,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5E61F1AA)
-    (at 70 75)
+    (at 69.975 51)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5F4F8ACC)
