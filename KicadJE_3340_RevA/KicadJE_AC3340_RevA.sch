@@ -254,44 +254,16 @@ Wire Wire Line
 	1325 5125 1325 5400
 $Comp
 L Graphic:SYM_Hot_Large #SYM?
-U 1 1 5F4B935E
-P 5325 7525
-AR Path="/5E4B0DD9/5F4B935E" Ref="#SYM?"  Part="1" 
-AR Path="/5F49A670/5F4B935E" Ref="#SYM?"  Part="1" 
-AR Path="/5F4B935E" Ref="#SYM102"  Part="1" 
-F 0 "#SYM102" H 5325 7847 50  0000 C CNN
-F 1 "Johansen Engineering Logo 15" H 5325 7756 50  0000 C CNN
-F 2 "AJ:Johansen_engineering_logo_15mm" H 5325 7325 50  0001 C CNN
-F 3 "~" H 5355 7325 50  0001 C CNN
-	1    5325 7525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Graphic:SYM_Hot_Large #SYM?
 U 1 1 5F4B9364
-P 5325 6900
+P 10550 6075
 AR Path="/5E4B0DD9/5F4B9364" Ref="#SYM?"  Part="1" 
 AR Path="/5F49A670/5F4B9364" Ref="#SYM?"  Part="1" 
 AR Path="/5F4B9364" Ref="#SYM101"  Part="1" 
-F 0 "#SYM101" H 5325 7222 50  0000 C CNN
-F 1 "Johansen Engineering Logo 20" H 5325 7131 50  0000 C CNN
-F 2 "AJ:Johansen_engineering_logo_20mm" H 5325 6700 50  0001 C CNN
-F 3 "~" H 5355 6700 50  0001 C CNN
-	1    5325 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Graphic:SYM_Hot_Large #SYM?
-U 1 1 5F4B936A
-P 6150 7275
-AR Path="/5E4B0DD9/5F4B936A" Ref="#SYM?"  Part="1" 
-AR Path="/5F49A670/5F4B936A" Ref="#SYM?"  Part="1" 
-AR Path="/5F4B936A" Ref="#SYM103"  Part="1" 
-F 0 "#SYM103" H 6150 7597 50  0000 C CNN
-F 1 "Johansen Engineering Logo 25" H 6150 7506 50  0000 C CNN
-F 2 "AJ:Johansen_engineering_logo_25mm_front_neg5" H 6150 7075 50  0001 C CNN
-F 3 "~" H 6180 7075 50  0001 C CNN
-	1    6150 7275
+F 0 "#SYM101" H 10550 6397 50  0000 C CNN
+F 1 "Johansen Engineering Logo 20" H 10550 6306 50  0000 C CNN
+F 2 "AJ:Johansen_engineering_logo_20mm" H 10550 5875 50  0001 C CNN
+F 3 "~" H 10580 5875 50  0001 C CNN
+	1    10550 6075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3705,77 +3677,77 @@ Octave Adjust
 $Comp
 L Amplifier_Operational:TL072 U?
 U 1 1 614891B3
-P 9700 3550
+P 5700 7150
 AR Path="/5D99B81E/614891B3" Ref="U?"  Part="3" 
 AR Path="/5D99B7BA/614891B3" Ref="U?"  Part="1" 
 AR Path="/5F18E4B5/614891B3" Ref="U?"  Part="2" 
 AR Path="/5E62ACA1/614891B3" Ref="U?"  Part="1" 
 AR Path="/5F49A670/614891B3" Ref="U?"  Part="1" 
 AR Path="/614891B3" Ref="U103"  Part="1" 
-F 0 "U103" H 9600 3575 50  0000 C CNN
-F 1 "TL072" H 9625 3500 50  0000 C CNN
-F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 9700 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9700 3550 50  0001 C CNN
-	1    9700 3550
+F 0 "U103" H 5600 7175 50  0000 C CNN
+F 1 "TL072" H 5625 7100 50  0000 C CNN
+F 2 "AJ-Dropbox-Kicad:AJ_SO-8_5.3x6.2mm_P1.27mm" H 5700 7150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5700 7150 50  0001 C CNN
+	1    5700 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 3650 9375 3650
+	5400 7250 5375 7250
 Wire Wire Line
-	9375 3650 9375 3800
+	5375 7250 5375 7400
 Wire Wire Line
-	9375 3800 9550 3800
+	5375 7400 5550 7400
 Wire Wire Line
-	10025 3800 10025 3550
+	6025 7400 6025 7150
 Wire Wire Line
-	10025 3550 10000 3550
+	6025 7150 6000 7150
 $Comp
 L Device:R R156
 U 1 1 614891BF
-P 10175 3550
+P 6175 7150
 AR Path="/614891BF" Ref="R156"  Part="1" 
 AR Path="/5C8C5FC0/614891BF" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/614891BF" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/614891BF" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/614891BF" Ref="R?"  Part="1" 
 AR Path="/5F49A670/614891BF" Ref="R?"  Part="1" 
-F 0 "R156" V 10075 3475 50  0000 C CNN
-F 1 "100k" V 10175 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10105 3550 50  0001 C CNN
-F 3 "~" H 10175 3550 50  0001 C CNN
-	1    10175 3550
+F 0 "R156" V 6075 7075 50  0000 C CNN
+F 1 "100k" V 6175 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6105 7150 50  0001 C CNN
+F 3 "~" H 6175 7150 50  0001 C CNN
+	1    6175 7150
 	0    1    1    0   
 $EndComp
-Connection ~ 10025 3550
+Connection ~ 6025 7150
 Wire Wire Line
 	2400 1125 2325 1125
 $Comp
 L Device:R R151
 U 1 1 61551447
-P 9700 3225
+P 5700 6825
 AR Path="/61551447" Ref="R151"  Part="1" 
 AR Path="/5C8C5FC0/61551447" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/61551447" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/61551447" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/61551447" Ref="R?"  Part="1" 
 AR Path="/5F49A670/61551447" Ref="R?"  Part="1" 
-F 0 "R151" V 9600 3150 50  0000 C CNN
-F 1 "OPEN" V 9700 3225 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9630 3225 50  0001 C CNN
-F 3 "~" H 9700 3225 50  0001 C CNN
-	1    9700 3225
+F 0 "R151" V 5600 6750 50  0000 C CNN
+F 1 "OPEN" V 5700 6825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 6825 50  0001 C CNN
+F 3 "~" H 5700 6825 50  0001 C CNN
+	1    5700 6825
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9375 3450 9375 3225
+	5375 7050 5375 6825
 Wire Wire Line
-	9375 3225 9550 3225
+	5375 6825 5550 6825
 Wire Wire Line
-	9375 3450 9400 3450
+	5375 7050 5400 7050
 Wire Wire Line
-	10025 3550 10025 3225
+	6025 7150 6025 6825
 Wire Wire Line
-	10025 3225 9850 3225
+	6025 6825 5850 6825
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR0125
 U 1 1 615A670C
@@ -3819,70 +3791,70 @@ Text GLabel 7525 4450 0    47   Input ~ 0
 $Comp
 L Device:R R152
 U 1 1 616AB5FE
-P 9700 3800
+P 5700 7400
 AR Path="/616AB5FE" Ref="R152"  Part="1" 
 AR Path="/5C8C5FC0/616AB5FE" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/616AB5FE" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/616AB5FE" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/616AB5FE" Ref="R?"  Part="1" 
 AR Path="/5F49A670/616AB5FE" Ref="R?"  Part="1" 
-F 0 "R152" V 9800 3725 50  0000 C CNN
-F 1 "0R" V 9700 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9630 3800 50  0001 C CNN
-F 3 "~" H 9700 3800 50  0001 C CNN
-	1    9700 3800
+F 0 "R152" V 5800 7325 50  0000 C CNN
+F 1 "0R" V 5700 7400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 7400 50  0001 C CNN
+F 3 "~" H 5700 7400 50  0001 C CNN
+	1    5700 7400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9850 3800 10025 3800
-Text GLabel 10475 3550 2    50   Input ~ 0
+	5850 7400 6025 7400
+Text GLabel 6475 7150 2    50   Input ~ 0
 3CVIn1
 Wire Wire Line
-	10325 3550 10475 3550
-Text GLabel 9250 3450 0    50   Input ~ 0
+	6325 7150 6475 7150
+Text GLabel 5250 7050 0    50   Input ~ 0
 3Octave
 Wire Wire Line
-	9250 3450 9375 3450
-Connection ~ 9375 3450
+	5250 7050 5375 7050
+Connection ~ 5375 7050
 $Comp
 L Device:R R163
 U 1 1 5E78950E
-P 9150 3800
+P 5150 7400
 AR Path="/5E78950E" Ref="R163"  Part="1" 
 AR Path="/5C8C5FC0/5E78950E" Ref="R?"  Part="1" 
 AR Path="/5CAAE8D3/5E78950E" Ref="R?"  Part="1" 
 AR Path="/5E4B0DD9/5E78950E" Ref="R?"  Part="1" 
 AR Path="/5E62ACA1/5E78950E" Ref="R?"  Part="1" 
 AR Path="/5F49A670/5E78950E" Ref="R?"  Part="1" 
-F 0 "R163" V 9050 3725 50  0000 C CNN
-F 1 "OPEN" V 9150 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9080 3800 50  0001 C CNN
-F 3 "~" H 9150 3800 50  0001 C CNN
-	1    9150 3800
+F 0 "R163" V 5050 7325 50  0000 C CNN
+F 1 "OPEN" V 5150 7400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 7400 50  0001 C CNN
+F 3 "~" H 5150 7400 50  0001 C CNN
+	1    5150 7400
 	0    1    1    0   
 $EndComp
 $Comp
 L Envelope-cache-2018-08-04-13-00-04:GND #PWR0142
 U 1 1 5E789A07
-P 8925 3800
+P 4925 7400
 AR Path="/5E789A07" Ref="#PWR0142"  Part="1" 
 AR Path="/5C8C5FC0/5E789A07" Ref="#PWR?"  Part="1" 
 AR Path="/5CAAE8D3/5E789A07" Ref="#PWR?"  Part="1" 
 AR Path="/5E4B0DD9/5E789A07" Ref="#PWR?"  Part="1" 
 AR Path="/5E62ACA1/5E789A07" Ref="#PWR?"  Part="1" 
 AR Path="/5F49A670/5E789A07" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0142" H 8925 3550 50  0001 C CNN
-F 1 "GND" H 8930 3627 50  0000 C CNN
-F 2 "" H 8925 3800 50  0001 C CNN
-F 3 "" H 8925 3800 50  0001 C CNN
-	1    8925 3800
+F 0 "#PWR0142" H 4925 7150 50  0001 C CNN
+F 1 "GND" H 4930 7227 50  0000 C CNN
+F 2 "" H 4925 7400 50  0001 C CNN
+F 3 "" H 4925 7400 50  0001 C CNN
+	1    4925 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8925 3800 9000 3800
+	4925 7400 5000 7400
 Wire Wire Line
-	9300 3800 9375 3800
-Connection ~ 9375 3800
+	5300 7400 5375 7400
+Connection ~ 5375 7400
 Wire Wire Line
 	2325 825  2325 700 
 Wire Wire Line
