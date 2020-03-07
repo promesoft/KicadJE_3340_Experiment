@@ -1146,7 +1146,7 @@ AR Path="/5F49A670/5F4F8A1B" Ref="P?"  Part="1"
 AR Path="/5F4F8A1B" Ref="P101"  Part="1" 
 F 0 "P101" H 5825 5177 40  0000 C CNN
 F 1 "HEADER_2x5_Doepfer" H 5800 5375 40  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5725 6275 60  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 5475 4925 60  0000 C CNN
 F 3 "" H 5825 5675 60  0000 C CNN
 	1    5825 5675
 	-1   0    0    1   
@@ -4094,7 +4094,6 @@ F 3 "~" H 7825 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7625 4350
-Connection ~ 1325 4425
 Connection ~ 1250 4425
 Wire Wire Line
 	1250 4425 1175 4425
@@ -4259,14 +4258,120 @@ F 3 "~" H 4475 7175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP114
-U 1 1 5EEADEBD
-P 5600 6250
-F 0 "TP114" H 5658 6368 50  0000 L CNN
-F 1 "ON" H 5658 6277 50  0000 L CNN
-F 2 "AJ:LED_Hole_2.5mm" H 5800 6250 50  0001 C CNN
-F 3 "~" H 5800 6250 50  0001 C CNN
-	1    5600 6250
+L Mechanical:MountingHole_Pad H101
+U 1 1 5EF22F1C
+P 6425 6250
+F 0 "H101" H 6525 6299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6525 6208 50  0000 L CNN
+F 2 "AJ:MountingHole_Eurorack3" H 6425 6250 50  0001 C CNN
+F 3 "~" H 6425 6250 50  0001 C CNN
+	1    6425 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H102
+U 1 1 5EF24A8F
+P 6675 6250
+F 0 "H102" H 6775 6299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6775 6208 50  0000 L CNN
+F 2 "AJ:MountingHole_Eurorack3" H 6675 6250 50  0001 C CNN
+F 3 "~" H 6675 6250 50  0001 C CNN
+	1    6675 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H103
+U 1 1 5EF24C31
+P 6925 6250
+F 0 "H103" H 7025 6299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7025 6208 50  0000 L CNN
+F 2 "AJ:MountingHole_Eurorack3" H 6925 6250 50  0001 C CNN
+F 3 "~" H 6925 6250 50  0001 C CNN
+	1    6925 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H104
+U 1 1 5EF24E1C
+P 7175 6250
+F 0 "H104" H 7275 6299 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7275 6208 50  0000 L CNN
+F 2 "AJ:MountingHole_Eurorack3" H 7175 6250 50  0001 C CNN
+F 3 "~" H 7175 6250 50  0001 C CNN
+	1    7175 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 6350 6925 6350
+Connection ~ 6675 6350
+Wire Wire Line
+	6675 6350 6425 6350
+Connection ~ 6925 6350
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR0120
+U 1 1 5EF57B05
+P 6800 6350
+AR Path="/5EF57B05" Ref="#PWR0120"  Part="1" 
+AR Path="/5C8C5FC0/5EF57B05" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/5EF57B05" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/5EF57B05" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/5EF57B05" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5EF57B05" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 6800 6100 50  0001 C CNN
+F 1 "GND" H 6805 6177 50  0000 C CNN
+F 2 "" H 6800 6350 50  0001 C CNN
+F 3 "" H 6800 6350 50  0001 C CNN
+	1    6800 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 6350
+Wire Wire Line
+	6800 6350 6675 6350
+Wire Wire Line
+	6800 6350 6925 6350
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR0147
+U 1 1 5EF95D3D
+P 4275 7175
+AR Path="/5EF95D3D" Ref="#PWR0147"  Part="1" 
+AR Path="/5C8C5FC0/5EF95D3D" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/5EF95D3D" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/5EF95D3D" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/5EF95D3D" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5EF95D3D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0147" H 4275 6925 50  0001 C CNN
+F 1 "GND" H 4280 7002 50  0000 C CNN
+F 2 "" H 4275 7175 50  0001 C CNN
+F 3 "" H 4275 7175 50  0001 C CNN
+	1    4275 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Envelope-cache-2018-08-04-13-00-04:GND #PWR0146
+U 1 1 5EF966DD
+P 2250 7375
+AR Path="/5EF966DD" Ref="#PWR0146"  Part="1" 
+AR Path="/5C8C5FC0/5EF966DD" Ref="#PWR?"  Part="1" 
+AR Path="/5CAAE8D3/5EF966DD" Ref="#PWR?"  Part="1" 
+AR Path="/5E4B0DD9/5EF966DD" Ref="#PWR?"  Part="1" 
+AR Path="/5E62ACA1/5EF966DD" Ref="#PWR?"  Part="1" 
+AR Path="/5F49A670/5EF966DD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0146" H 2250 7125 50  0001 C CNN
+F 1 "GND" H 2255 7202 50  0000 C CNN
+F 2 "" H 2250 7375 50  0001 C CNN
+F 3 "" H 2250 7375 50  0001 C CNN
+	1    2250 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H105
+U 1 1 5EF9702E
+P 5475 6175
+F 0 "H105" H 5575 6221 50  0000 L CNN
+F 1 "ON" H 5575 6130 50  0000 L CNN
+F 2 "AJ:LED_Hole_3mm" H 5475 6175 50  0001 C CNN
+F 3 "~" H 5475 6175 50  0001 C CNN
+	1    5475 6175
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
