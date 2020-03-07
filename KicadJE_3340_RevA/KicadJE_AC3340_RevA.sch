@@ -82,11 +82,11 @@ F 3 "~" H 975 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 1025 1200 1025
+	1350 1025 1250 1025
 Wire Wire Line
 	1350 1025 1350 825 
 Wire Wire Line
-	1350 625  1200 625 
+	1350 625  1250 625 
 Connection ~ 1350 1025
 Wire Wire Line
 	1200 825  1350 825 
@@ -153,9 +153,9 @@ F 3 "" H 1325 6275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1325 5125 1175 5125
+	1325 5125 1250 5125
 Wire Wire Line
-	1325 4425 1175 4425
+	1325 4425 1250 4425
 Connection ~ 1325 5125
 Text GLabel 2900 2025 2    50   Input ~ 0
 3SoftSyncIn2
@@ -188,13 +188,13 @@ Connection ~ 1350 1675
 Wire Wire Line
 	1350 1225 1350 1475
 Wire Wire Line
-	1200 1475 1350 1475
+	1200 1475 1250 1475
 Wire Wire Line
 	1750 1575 1850 1575
 Wire Wire Line
 	1350 1675 1350 1925
 Wire Wire Line
-	1200 1925 1350 1925
+	1200 1925 1250 1925
 Connection ~ 1350 1925
 Wire Wire Line
 	1350 1925 1350 2125
@@ -233,7 +233,7 @@ $EndComp
 Wire Wire Line
 	1175 6025 1425 6025
 Wire Wire Line
-	1325 5925 1175 5925
+	1325 5925 1250 5925
 $Comp
 L Device:R R107
 U 1 1 5F4B92DD
@@ -381,11 +381,11 @@ F 3 "" H 1350 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 2775 1200 2775
+	1350 2775 1250 2775
 Wire Wire Line
 	1350 2775 1350 2575
 Wire Wire Line
-	1350 2375 1200 2375
+	1350 2375 1250 2375
 Connection ~ 1350 2775
 Wire Wire Line
 	1200 2575 1350 2575
@@ -425,7 +425,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 2975 1350 3225
 Wire Wire Line
-	1200 3225 1350 3225
+	1200 3225 1250 3225
 $Comp
 L Device:R R115
 U 1 1 5F4B93C4
@@ -4072,14 +4072,201 @@ $EndComp
 Wire Wire Line
 	2700 1125 2800 1125
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP109
 U 1 1 5EE75A89
-P 10725 3500
-F 0 "TP?" H 10783 3618 50  0000 L CNN
-F 1 "TestPoint" H 10783 3527 50  0000 L CNN
-F 2 "" H 10925 3500 50  0001 C CNN
-F 3 "~" H 10925 3500 50  0001 C CNN
-	1    10725 3500
+P 1250 4425
+F 0 "TP109" H 1308 4543 50  0000 L CNN
+F 1 "Tri" H 1308 4452 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 4425 50  0001 C CNN
+F 3 "~" H 1450 4425 50  0001 C CNN
+	1    1250 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP115
+U 1 1 5EE78A77
+P 7625 4350
+F 0 "TP115" H 7683 4468 50  0000 L CNN
+F 1 "3m5 jack" H 7683 4377 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 7825 4350 50  0001 C CNN
+F 3 "~" H 7825 4350 50  0001 C CNN
+	1    7625 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7625 4350
+Connection ~ 1325 4425
+Connection ~ 1250 4425
+Wire Wire Line
+	1250 4425 1175 4425
+$Comp
+L Connector:TestPoint TP110
+U 1 1 5EEA7CE8
+P 1250 5125
+F 0 "TP110" H 1308 5243 50  0000 L CNN
+F 1 "SQ" H 1308 5152 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 5125 50  0001 C CNN
+F 3 "~" H 1450 5125 50  0001 C CNN
+	1    1250 5125
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 5125
+Wire Wire Line
+	1250 5125 1175 5125
+$Comp
+L Connector:TestPoint TP111
+U 1 1 5EEA8234
+P 1250 5925
+F 0 "TP111" H 1308 6043 50  0000 L CNN
+F 1 "Saw" H 1308 5952 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 5925 50  0001 C CNN
+F 3 "~" H 1450 5925 50  0001 C CNN
+	1    1250 5925
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 5925
+Wire Wire Line
+	1250 5925 1175 5925
+$Comp
+L Connector:TestPoint TP108
+U 1 1 5EEA874B
+P 1250 3225
+F 0 "TP108" H 1308 3343 50  0000 L CNN
+F 1 "PWM" H 1308 3252 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 3225 50  0001 C CNN
+F 3 "~" H 1450 3225 50  0001 C CNN
+	1    1250 3225
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 3225
+Wire Wire Line
+	1250 3225 1350 3225
+$Comp
+L Connector:TestPoint TP107
+U 1 1 5EEA8C5E
+P 1250 2775
+F 0 "TP107" H 1308 2893 50  0000 L CNN
+F 1 "FM" H 1308 2802 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 2775 50  0001 C CNN
+F 3 "~" H 1450 2775 50  0001 C CNN
+	1    1250 2775
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 2775
+Wire Wire Line
+	1250 2775 1200 2775
+$Comp
+L Connector:TestPoint TP106
+U 1 1 5EEA8E6B
+P 1250 2375
+F 0 "TP106" H 1308 2493 50  0000 L CNN
+F 1 "HS" H 1308 2402 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 2375 50  0001 C CNN
+F 3 "~" H 1450 2375 50  0001 C CNN
+	1    1250 2375
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 2375
+Wire Wire Line
+	1250 2375 1200 2375
+$Comp
+L Connector:TestPoint TP105
+U 1 1 5EEA9123
+P 1250 1925
+F 0 "TP105" H 1308 2043 50  0000 L CNN
+F 1 "SS" H 1308 1952 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 1925 50  0001 C CNN
+F 3 "~" H 1450 1925 50  0001 C CNN
+	1    1250 1925
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 1925
+Wire Wire Line
+	1250 1925 1350 1925
+$Comp
+L Connector:TestPoint TP104
+U 1 1 5EEA942D
+P 1250 1475
+F 0 "TP104" H 1308 1593 50  0000 L CNN
+F 1 "In3" H 1308 1502 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 1475 50  0001 C CNN
+F 3 "~" H 1450 1475 50  0001 C CNN
+	1    1250 1475
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 1475
+Wire Wire Line
+	1250 1475 1350 1475
+$Comp
+L Connector:TestPoint TP103
+U 1 1 5EEA9D54
+P 1250 1025
+F 0 "TP103" H 1308 1143 50  0000 L CNN
+F 1 "In2" H 1308 1052 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 1025 50  0001 C CNN
+F 3 "~" H 1450 1025 50  0001 C CNN
+	1    1250 1025
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 1025
+Wire Wire Line
+	1250 1025 1200 1025
+$Comp
+L Connector:TestPoint TP102
+U 1 1 5EEAA042
+P 1250 625
+F 0 "TP102" H 1308 743 50  0000 L CNN
+F 1 "In1" H 1308 652 50  0000 L CNN
+F 2 "AJ:Jack_6m3" H 1450 625 50  0001 C CNN
+F 3 "~" H 1450 625 50  0001 C CNN
+	1    1250 625 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1250 625 
+Wire Wire Line
+	1250 625  1200 625 
+$Comp
+L Connector:TestPoint TP101
+U 1 1 5EEAA7A8
+P 850 7225
+F 0 "TP101" V 775 7325 50  0000 C CNN
+F 1 "Oct" V 725 7325 50  0000 C CNN
+F 2 "AJ:Pot_6m3" H 1050 7225 50  0001 C CNN
+F 3 "~" H 1050 7225 50  0001 C CNN
+	1    850  7225
+	0    -1   -1   0   
+$EndComp
+Connection ~ 850  7225
+$Comp
+L Connector:TestPoint TP112
+U 1 1 5EEAB808
+P 2250 7375
+F 0 "TP112" H 2308 7493 50  0000 L CNN
+F 1 "Fine" H 2308 7402 50  0000 L CNN
+F 2 "AJ:Pot_6m3_scale1" H 2450 7375 50  0001 C CNN
+F 3 "~" H 2450 7375 50  0001 C CNN
+	1    2250 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP113
+U 1 1 5EEAC9DC
+P 4275 7175
+F 0 "TP113" H 4333 7293 50  0000 L CNN
+F 1 "PWM" H 4333 7202 50  0000 L CNN
+F 2 "AJ:Pot_6m3_scale1" H 4475 7175 50  0001 C CNN
+F 3 "~" H 4475 7175 50  0001 C CNN
+	1    4275 7175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP114
+U 1 1 5EEADEBD
+P 5600 6250
+F 0 "TP114" H 5658 6368 50  0000 L CNN
+F 1 "ON" H 5658 6277 50  0000 L CNN
+F 2 "AJ:LED_Hole_2.5mm" H 5800 6250 50  0001 C CNN
+F 3 "~" H 5800 6250 50  0001 C CNN
+	1    5600 6250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
