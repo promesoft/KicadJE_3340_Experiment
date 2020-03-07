@@ -3285,8 +3285,6 @@ Wire Wire Line
 Connection ~ 5925 3475
 Wire Wire Line
 	5925 3475 5925 3525
-Wire Wire Line
-	5925 3475 6350 3475
 $Comp
 L Device:R R150
 U 1 1 609A4B04
@@ -3447,9 +3445,6 @@ F 3 "" H 6150 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6150 4700 6150 4675
-Connection ~ 6350 3475
-Wire Wire Line
-	6350 3475 6900 3475
 Text Notes 4550 3025 0    50   ~ 0
 Sine Shaper
 Text GLabel 7975 3525 2    47   Input ~ 0
@@ -4374,4 +4369,6 @@ F 3 "~" H 5475 6175 50  0001 C CNN
 	1    5475 6175
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5925 3475 6900 3475
 $EndSCHEMATC
