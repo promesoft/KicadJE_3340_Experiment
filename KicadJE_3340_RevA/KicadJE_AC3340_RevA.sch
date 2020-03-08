@@ -832,39 +832,10 @@ $EndComp
 Wire Wire Line
 	2250 2700 2250 2875
 Connection ~ 2250 2875
-$Comp
-L Device:D D111
-U 1 1 5F4B950C
-P 2925 2650
-AR Path="/5F4B950C" Ref="D111"  Part="1" 
-AR Path="/5D60ED9A/5F4B950C" Ref="D?"  Part="1" 
-AR Path="/5CD6EBF4/5F4B950C" Ref="D?"  Part="1" 
-AR Path="/5CE53731/5F4B950C" Ref="D?"  Part="1" 
-AR Path="/5DD87D87/5F4B950C" Ref="D?"  Part="1" 
-AR Path="/5F18E4B5/5F4B950C" Ref="D?"  Part="1" 
-AR Path="/5E62ACA1/5F4B950C" Ref="D?"  Part="1" 
-AR Path="/5E4B0DD9/5F4B950C" Ref="D?"  Part="1" 
-AR Path="/5F49A670/5F4B950C" Ref="D?"  Part="1" 
-F 0 "D111" H 2875 2750 50  0000 L CNN
-F 1 "1N1007" H 2750 2575 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 2925 2650 50  0001 C CNN
-F 3 "~" H 2925 2650 50  0001 C CNN
-	1    2925 2650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3075 2650 3425 2650
-Wire Wire Line
-	3425 2650 3425 2600
-Wire Wire Line
-	3425 2725 3425 2650
-Connection ~ 3425 2650
 Wire Wire Line
 	2950 2725 2975 2725
 Wire Wire Line
 	2950 2725 2950 2875
-Wire Wire Line
-	2775 2875 2775 2650
 Wire Wire Line
 	2950 3075 2950 2875
 Wire Wire Line
@@ -1038,15 +1009,10 @@ Wire Wire Line
 	2250 2700 2275 2700
 Wire Wire Line
 	2575 2700 2600 2700
-Wire Wire Line
-	2250 2875 2775 2875
 Connection ~ 2875 2875
 Wire Wire Line
 	2875 2875 2950 2875
 Connection ~ 2950 2875
-Connection ~ 2775 2875
-Wire Wire Line
-	2775 2875 2875 2875
 Wire Wire Line
 	2950 2875 3400 2875
 Wire Wire Line
@@ -4371,4 +4337,8 @@ F 3 "~" H 5475 6175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5925 3475 6900 3475
+Wire Wire Line
+	3425 2600 3425 2725
+Wire Wire Line
+	2250 2875 2875 2875
 $EndSCHEMATC
