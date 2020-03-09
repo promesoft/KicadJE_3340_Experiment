@@ -56,6 +56,10 @@ Protection of the chip is also needed.
 ### 3340
 
 # Pictures
+![](KicadJE_AC3340_RevA2_Faceplate.png)
+
+## Prototype
+
 ![](2020%2002%20AS3340%20stripboard.JPG)
 
 # Schematic
