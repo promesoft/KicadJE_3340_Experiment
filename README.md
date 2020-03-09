@@ -24,11 +24,11 @@ Protection of the chip is also needed.
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| create material  | sch | AS 3340 datasheet as sch done - next: clone of Prophet 8 |
-| | pcb |   |
-| | gerber |  |
-| production  |   |  |
-|  | produced |  |
+| create material  | sch | done |
+| | pcb | done  |
+| | gerber | done |
+| production  |   | ordered |
+|  | produced | ongoing |
 |  | delivered |  |
 ## Preliminary validation
 | Test  | Detail | Status |
