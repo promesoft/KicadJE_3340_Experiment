@@ -28,8 +28,8 @@ Protection of the chip is also needed.
 | | pcb | done  |
 | | gerber | done |
 | production  |   | ordered |
-|  | produced | ongoing |
-|  | delivered |  |
+|  | produced | done |
+|  | delivered | awaiting pickup |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
