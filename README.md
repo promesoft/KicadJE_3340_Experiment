@@ -6,21 +6,7 @@ Based on http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 
 Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as3340-vco.html
 
-# Status - startup with Datasheet circuit
-Move from breadboard to stripboard as breadboard is not stable in any way.
-
-Quick mods to get started
-* 820R -> 680R (-12v)
-* 470R -> 680R (CV in)
-* 24k -> 20k (Rz tracking serial res)
-* 1k8 -> 2k (Scale)
-* 1M5 -> 1M (+12v pull up FM in)
-* 5k6 -> 4k7 (scale adj RT)
-
-Works ok for feature validation - but sync and PWM adjustment circuits should be included - as well as level adjustment.
-Protection of the chip is also needed.
-20K pot not needed.
-
+# Status - first PCB on the way
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
@@ -56,16 +42,31 @@ Protection of the chip is also needed.
 ### 3340
 
 # Pictures
-![](KicadJE_AS3340_RevA _PCB.png)
+![](KicadJE_AS3340_RevA_PCB.png)
 ![](KicadJE_AS3340_RevA2_Faceplate.png)
+
+# Schematic
+## AS3340 Data Sheet
+![](AS3340%20JE%20Diagram%203RevA.png)
 
 ## Prototype
 
 ![](2020%2002%20AS3340%20stripboard.JPG)
 
-# Schematic
-## AS3340 Data Sheet
-![](AS3340%20JE%20Diagram%203RevA.png)
+Move from breadboard to stripboard as breadboard is not stable in any way.
+
+Quick mods to get started
+* 820R -> 680R (-12v)
+* 470R -> 680R (CV in)
+* 24k -> 20k (Rz tracking serial res)
+* 1k8 -> 2k (Scale)
+* 1M5 -> 1M (+12v pull up FM in)
+* 5k6 -> 4k7 (scale adj RT)
+
+Works ok for feature validation - but sync and PWM adjustment circuits should be included - as well as level adjustment.
+Protection of the chip is also needed.
+20K pot not needed.
+
 # Inspiration
 ## AS3340 Data Sheet
 ![](AS3340%20Diagram.png)
