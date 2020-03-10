@@ -56,6 +56,7 @@ Protection of the chip is also needed.
 ### 3340
 
 # Pictures
+![](KicadJE_AC3340_RevA _PCB.png)
 ![](KicadJE_AC3340_RevA2_Faceplate.png)
 
 ## Prototype
