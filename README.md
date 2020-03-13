@@ -15,7 +15,7 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 | | gerber | done |
 | production  |   | ordered |
 |  | produced | done |
-|  | delivered | awaiting pickup |
+|  | delivered | on the way |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
