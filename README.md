@@ -22,16 +22,12 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 | Initial Inspection | Face | Looks good - nice alignment and finish |
 | Initial Inspection | PCB |  |
 | Initial Technical Test |  |  |
-| Initial Technical Test |  |  |
-| Initial Product Test |  |  |
 | Initial Product Test |  |  |
 
 ## Secondary validation
 | Test  | Detail | Status |
 | ------------- | ------------- |------------- |
 | Product Test |  | |
-| Product Test |  | |
-| Quality |  | |
 | Quality | | |
 | Long Term Product Test |  |  |
 | Power Draw |  | 
