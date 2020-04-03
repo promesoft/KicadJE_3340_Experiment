@@ -6,20 +6,21 @@ Based on http://www.alfarzpp.lv/eng/sc/AS3340.pdf
 
 Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as3340-vco.html
 
-# Status - first PCB on the way
+# Status - Delivered
 ## Initial 
 | Stage  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | create material  | sch | done |
 | | pcb | done  |
 | | gerber | done |
-| production  |   | ordered |
-|  | produced | done |
-|  | delivered | on the way |
+| production  |   | ok |
+|  | produced | ok |
+|  | delivered | ok |
 ## Preliminary validation
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
-| Initial Inspection | |  |
+| Initial Inspection | Face | Looks good - nice alignment and finish |
+| Initial Inspection | PCB |  |
 | Initial Technical Test |  |  |
 | Initial Technical Test |  |  |
 | Initial Product Test |  |  |
