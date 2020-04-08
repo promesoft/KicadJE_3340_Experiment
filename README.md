@@ -20,8 +20,8 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 | Test  | Detail | Status |
 | ------------- | ------------- | ------------- |
 | Initial Inspection | Face | Looks good - nice alignment and finish |
-| Initial Inspection | PCB |  |
-| Initial Technical Test |  |  |
+| Initial Inspection | PCB | Several errors |
+| Initial Technical Test |  | Several errors |
 | Initial Product Test |  |  |
 
 ## Secondary validation
