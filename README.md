@@ -33,7 +33,10 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 | Power Draw |  | 
 
 ## Errata
-### Errata - 
+### Errata - 3340
+Sync circuit messed up in SCH
+
+Fine pot reversed
 
 ## Issues and Notes
 ### 3340
