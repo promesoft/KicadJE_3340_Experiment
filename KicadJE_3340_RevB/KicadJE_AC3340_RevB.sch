@@ -2246,7 +2246,7 @@ $EndComp
 Wire Wire Line
 	1375 6800 1375 6775
 Wire Wire Line
-	1375 6775 850  6775
+	1375 6775 1275 6775
 Wire Wire Line
 	850  6775 850  6750
 Wire Wire Line
@@ -4654,4 +4654,22 @@ Wire Wire Line
 	2225 4200 2225 4525
 Wire Wire Line
 	5250 7050 5400 7050
+$Comp
+L Device:R R?
+U 1 1 5F8D56CF
+P 1125 6775
+AR Path="/5F8D56CF" Ref="R?"  Part="1" 
+AR Path="/5C8C5FC0/5F8D56CF" Ref="R?"  Part="1" 
+AR Path="/5CAAE8D3/5F8D56CF" Ref="R?"  Part="1" 
+AR Path="/5E4B0DD9/5F8D56CF" Ref="R?"  Part="1" 
+AR Path="/5F49A670/5F8D56CF" Ref="R?"  Part="1" 
+F 0 "R?" V 1000 6775 50  0000 C CNN
+F 1 "0R" V 1125 6775 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1055 6775 50  0001 C CNN
+F 3 "~" H 1125 6775 50  0001 C CNN
+	1    1125 6775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	975  6775 850  6775
 $EndSCHEMATC
