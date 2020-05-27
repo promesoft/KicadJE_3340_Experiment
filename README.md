@@ -34,9 +34,9 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 
 ## Errata
 ### Errata - 3340
-Sync circuit messed up in SCH
-
-Fine pot reversed
+ - Sync circuit messed up in SCH
+ - Fine pot reversed
+ - D103 D104 should go to +- 5V
 
 ## Issues and Notes
 ### 3340
