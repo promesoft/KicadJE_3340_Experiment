@@ -39,7 +39,7 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
  - D103 D104 should go to +- 5V
 
 ## Issues and Notes
-### 3340
+### 3340 Faceplate and PCB does not match for input jacks
 
 # Pictures
 ![](KicadJE_AS3340_RevA_PCB.png)
