@@ -36,11 +36,11 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 ### Errata - 3340
  - Sync circuit messed up in SCH
  - Fine pot reversed
- - D103 D104 should go to +- 5V
+ - D103 D104 should go to GND and + 5V
 
 ## Issues and Notes
 ### 3340 Faceplate and PCB does not match for input jacks
-### +/- 6V CV
+### + 6V -1V CV
 
 # Pictures
 ![](KicadJE_AS3340_RevA_PCB.png)
