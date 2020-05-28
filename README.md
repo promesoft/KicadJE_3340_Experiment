@@ -40,6 +40,7 @@ Sourced through https://syntaxis.com.pl/en/voltage-controlled-oscilators/8-as334
 
 ## Issues and Notes
 ### 3340 Faceplate and PCB does not match for input jacks
+### +/- 6V CV
 
 # Pictures
 ![](KicadJE_AS3340_RevA_PCB.png)
