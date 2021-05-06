@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -137,7 +137,7 @@ $EndComp
 Wire Wire Line
 	1175 4525 1425 4525
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0103
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0103
 U 1 1 5F4B92B1
 P 1325 6275
 AR Path="/5F4B92B1" Ref="#PWR0103"  Part="1" 
@@ -365,7 +365,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 2875 1450 2875
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0104
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0104
 U 1 1 5F4B93A7
 P 1350 3425
 AR Path="/5F4B93A7" Ref="#PWR0104"  Part="1" 
@@ -576,7 +576,7 @@ F 3 "~" H 2450 7125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV?
+L KicadJE_AC3340_RevA-rescue:POT-Envelope-cache-2018-08-04-13-00-04 RV?
 U 1 1 5F4B9436
 P 2800 7125
 AR Path="/5D99B7BA/5F4B9436" Ref="RV?"  Part="1" 
@@ -873,7 +873,7 @@ Wire Wire Line
 	2250 2300 2250 2475
 Connection ~ 2250 2475
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0109
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0109
 U 1 1 5F4B952E
 P 2250 2575
 AR Path="/5F4B952E" Ref="#PWR0109"  Part="1" 
@@ -980,7 +980,7 @@ Wire Wire Line
 	2600 2025 2900 2025
 Connection ~ 2600 2025
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0108
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0108
 U 1 1 5F4B9562
 P 2250 2150
 AR Path="/5F4B9562" Ref="#PWR0108"  Part="1" 
@@ -1018,7 +1018,7 @@ Wire Wire Line
 Wire Wire Line
 	3275 2725 3425 2725
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0112
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0112
 U 1 1 5F4B9576
 P 2325 1425
 AR Path="/5F4B9576" Ref="#PWR0112"  Part="1" 
@@ -1225,7 +1225,7 @@ F 3 "~" H 6225 6075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0134
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0134
 U 1 1 5F4F8A5B
 P 6225 5675
 AR Path="/5F4F8A5B" Ref="#PWR0134"  Part="1" 
@@ -1274,7 +1274,7 @@ F 3 "~" H 5325 5725 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0128
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0128
 U 1 1 5F4F8A76
 P 5575 5675
 AR Path="/5F4F8A76" Ref="#PWR0128"  Part="1" 
@@ -1463,7 +1463,7 @@ Connection ~ 8175 5675
 Wire Wire Line
 	8175 5325 8175 5275
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:+5V #PWR?
+L KicadJE_AC3340_RevA-rescue:+5V-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F4F8AF5
 P 8175 5225
 AR Path="/5E62ACA1/5F4F8AF5" Ref="#PWR?"  Part="1" 
@@ -1628,7 +1628,7 @@ Wire Wire Line
 	2800 3475 2925 3475
 Connection ~ 2925 3475
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0118
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0118
 U 1 1 5F56AA41
 P 3350 3900
 AR Path="/5F56AA41" Ref="#PWR0118"  Part="1" 
@@ -1852,7 +1852,7 @@ Connection ~ 6475 2600
 Wire Wire Line
 	6475 2600 6275 2600
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0137
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0137
 U 1 1 5F66CD58
 P 6725 2600
 AR Path="/5F66CD58" Ref="#PWR0137"  Part="1" 
@@ -2128,7 +2128,7 @@ Wire Wire Line
 	5400 1900 5275 1900
 Connection ~ 5275 1900
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:+5V #PWR?
+L KicadJE_AC3340_RevA-rescue:+5V-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F66CDDA
 P 5025 1350
 AR Path="/5E62ACA1/5F66CDDA" Ref="#PWR?"  Part="1" 
@@ -2254,7 +2254,7 @@ F 3 "~" H 1050 7125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:+5V #PWR?
+L KicadJE_AC3340_RevA-rescue:+5V-Envelope-cache-2018-08-04-13-00-04 #PWR?
 U 1 1 5F6F74CC
 P 850 6750
 AR Path="/5E62ACA1/5F6F74CC" Ref="#PWR?"  Part="1" 
@@ -2302,7 +2302,7 @@ F 3 "~" H 1375 7300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0102
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0102
 U 1 1 5F6F8CBF
 P 850 7500
 AR Path="/5F6F8CBF" Ref="#PWR0102"  Part="1" 
@@ -2558,7 +2558,7 @@ Wire Wire Line
 	2925 4850 3075 4850
 Connection ~ 2925 4850
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0121
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0121
 U 1 1 5FE418BD
 P 3450 4925
 AR Path="/5FE418BD" Ref="#PWR0121"  Part="1" 
@@ -2663,7 +2663,7 @@ Wire Wire Line
 	2925 5650 3075 5650
 Connection ~ 2925 5650
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0122
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0122
 U 1 1 5FE7E315
 P 3450 5725
 AR Path="/5FE7E315" Ref="#PWR0122"  Part="1" 
@@ -2843,7 +2843,7 @@ Wire Wire Line
 	8250 1150 8250 1350
 Connection ~ 8250 1350
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0144
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0144
 U 1 1 6047E7D0
 P 8625 1350
 AR Path="/6047E7D0" Ref="#PWR0144"  Part="1" 
@@ -2960,7 +2960,7 @@ F 3 "~" H 8950 2225 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0145
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0145
 U 1 1 605CBE50
 P 8950 2425
 AR Path="/605CBE50" Ref="#PWR0145"  Part="1" 
@@ -3073,7 +3073,7 @@ Wire Wire Line
 Wire Wire Line
 	5575 3725 5475 3725
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0127
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0127
 U 1 1 608519AE
 P 5575 4100
 AR Path="/608519AE" Ref="#PWR0127"  Part="1" 
@@ -3219,7 +3219,7 @@ F 3 "~" H 6675 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0136
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0136
 U 1 1 6091DDBA
 P 6675 4100
 AR Path="/6091DDBA" Ref="#PWR0136"  Part="1" 
@@ -3533,7 +3533,7 @@ Connection ~ 9325 2425
 Wire Wire Line
 	9000 2425 8950 2425
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0124
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0124
 U 1 1 60D96B00
 P 4100 7325
 AR Path="/60D96B00" Ref="#PWR0124"  Part="1" 
@@ -3569,7 +3569,7 @@ $EndComp
 Wire Wire Line
 	3900 7125 3950 7125
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:POT RV?
+L KicadJE_AC3340_RevA-rescue:POT-Envelope-cache-2018-08-04-13-00-04 RV?
 U 1 1 60D4C6A7
 P 4100 7125
 AR Path="/5D99B7BA/60D4C6A7" Ref="RV?"  Part="1" 
@@ -3710,7 +3710,7 @@ Wire Wire Line
 Wire Wire Line
 	6025 6825 5850 6825
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0125
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0125
 U 1 1 615A670C
 P 7625 4550
 AR Path="/615A670C" Ref="#PWR0125"  Part="1" 
@@ -3795,7 +3795,7 @@ F 3 "~" H 5150 7400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0142
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0142
 U 1 1 5E789A07
 P 4925 7400
 AR Path="/5E789A07" Ref="#PWR0142"  Part="1" 
@@ -4269,7 +4269,7 @@ Wire Wire Line
 	6675 6350 6425 6350
 Connection ~ 6925 6350
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0120
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0120
 U 1 1 5EF57B05
 P 6800 6350
 AR Path="/5EF57B05" Ref="#PWR0120"  Part="1" 
@@ -4291,7 +4291,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 6350 6925 6350
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0147
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0147
 U 1 1 5EF95D3D
 P 4275 7175
 AR Path="/5EF95D3D" Ref="#PWR0147"  Part="1" 
@@ -4308,7 +4308,7 @@ F 3 "" H 4275 7175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Envelope-cache-2018-08-04-13-00-04:GND #PWR0146
+L KicadJE_AC3340_RevA-rescue:GND-Envelope-cache-2018-08-04-13-00-04 #PWR0146
 U 1 1 5EF966DD
 P 2250 7375
 AR Path="/5EF966DD" Ref="#PWR0146"  Part="1" 
